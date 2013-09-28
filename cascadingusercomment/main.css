@@ -1,0 +1,353 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 980px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .icon.icon-thumbs-up {
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 460px;
+   left: -96px;
+ }
+ .container-fluid {
+   background: rgba(0, 0, 0, 0) url(../image/source.jpg) repeat 0px 0px;
+   background-size: auto;
+ }
+ .container-fluid .row-fluid .span12 .well {
+   background: #1de2ff;
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 {
+   margin: 0px;
+   padding: 12px 19px 12px 19px;
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 .btn {
+   padding: 4px 14px 4px 14px;
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 .btn.btn-1 {
+   margin: 4px 14px 4px 14px;
+   margin-top:12px;
+   margin-left: 10px;
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 .btn.btn-2 {
+   background: #ffffff;
+   background-image: -moz-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+   background-image: -webkit-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+   background-image: -o-linear-gradient(270deg, #ffffff 0%, #e6e6e6 100%);
+   background-image: linear-gradient(180deg, #ffffff 0%, #e6e6e6 100%);
+   margin: 10px 10px 0px 0px;
+   margin-top:12px;
+   margin-right: 1px;
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 div .heading {
+   font-family:"brandon-grotesque";
+   font-weight: normal;
+   margin: 0px;
+   text-shadow: 0px 0px 10px rgba(21, 90, 111, 0.701961);
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 div p {
+   margin: 0px;
+   padding: 0px 4px 0px 4px;
+   text-shadow: 0px 0px 9px rgba(75, 112, 202, 0.701961);
+ }
+ .container-fluid .row-fluid.row-fluid-1 {
+   padding: 10px 0px 10px 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 div.div-1 {
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 div.div-2 {
+   background: #FFFFFF;;
+ }
+ .container-fluid .row-fluid-1 .span4 div.div-3 {
+  padding: 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 {
+  padding: 0px 4px 0px 11px;
+height: 528px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .heading {
+   font-family:"brandon-grotesque";
+   font-weight: normal;
+   font-size: 22px;
+   text-shadow: 0px 0px 6px rgba(38, 83, 192, 0.701961);
+   margin: 0px;
+   padding: 24px 0px 24px 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span4 .well.div-1 {
+   padding: 32px 0px 32px 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 {
+   border: none;
+   padding: 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 div.div-5 {
+   padding: 4px 0px 4px 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 .div-5 .control-label {
+   margin: 0px;
+   padding: 4px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 div .row-fluid .span12 .control-label {
+   padding: 4px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 div .control-label.control-label-1 {
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 div .control-label {
+   padding: 4px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .control-label.control-label-2 {
+   margin: 0px;
+   padding: 10px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div.div-6 {
+   width: 100%;
+ }
+ .container-fluid .row-fluid-1 .span8 div.div-7 {
+   padding: 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 {
+   padding: 20px 18px 20px 18px;
+background: #FCFCFC;
+margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div.div-8 {
+   
+margin-left: 20%
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 div.div-9 {
+   padding: 1px 0px 1px 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 div textarea {
+   margin: 0px;
+   padding: 6px 0px 6px 0px;
+   width:79%;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 div.div-10 {
+   padding: 10px 18px 10px 18px;
+background: rgba(0, 0, 0, 0.6);
+width: 74%;
+float: left;
+margin-left: 1px;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 .div-10 .btn {
+   padding: 0px 10px 0px 10px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 .div-10 .btn.btn-3 {
+   margin: 0px 10px 0px 10px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid {
+   padding: 20px 0px 20px 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid .span10 .dom-pre {
+   font-family:"georgia";
+   border: none;
+   background: #dae6e8;
+   margin: 0px;
+   padding: 8px 0px 8px 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid .span10 div {
+   padding: 6px 10px 6px 10px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid .span10 div .icon.icon-thumbs-up {
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid .span10 div .icon.icon-thumbs-down {
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid .span10 div .icon.icon-comments {
+   margin: 0px;
+ }
+ .container-fluid div .row-fluid .span12 .well .icon.icon-twitter-sign {
+   font-size: 34px;
+   color: #ffffff;
+   height: 34px;
+   width: 38px;
+ }
+ .container-fluid div .row-fluid .span12 .well .icon.icon-facebook-sign {
+   font-size: 34px;
+   color: #ffffff;
+   height: 34px;
+   width: 38px;
+ }
+ .container-fluid div .row-fluid .span12 .well .icon.icon-google-plus-sign {
+   font-size: 34px;
+   color: #ffffff;
+   height: 34px;
+   width: 38px;
+ }
+  /*changes 25th sep start*/
+.issue_cont
+{
+	height:488px;
+	overflow-y:scroll;
+}
+/*changes 25th sep end*/
+
+.name1
+{
+	float:left;
+	width:29%;
+}
+.nameinput
+{
+	float:left;
+	width:64%;
+	padding:4px;
+}
+
+.mail1
+{
+	float:left;
+	
+}
+.mailinput
+{
+	float:left;
+	width:70%;
+	padding:10px;
+}
+.contact1
+{
+	float: left;
+}
+	.contactinput
+{
+	float:left;
+	width:70%;
+	padding:10px;
+}
+	.edu1
+{
+	float:left;
+	
+}
+.eduinput
+{
+	float:left;
+	width:64%;
+	padding:10px;
+}
+	.prof1
+{
+	float:left;
+	
+}
+.profinput
+{
+	float:left;
+	width:64%;
+	padding:10px;
+}
+	.peradd1
+{
+	float:left;
+	
+}
+.peraddinput
+{
+	float:left;
+	width:64%;
+	padding:10px;
+}
+	.preadd1
+{
+	float:left;
+	
+}
+.preaddinput
+{
+	float:left;
+	width:64%;
+	padding:10px;
+}
+.innermail
+{
+
+	float:left;
+	width:100%;
+	padding:px;
+}
+.innermail label
+{
+
+	float:left;
+	width:46%;
+}
+.innermail span
+{
+
+	float:left;
+	width:40%;
+	padding:11px;
+}
+
+
+#header
+{
+	float:left;
+	width:100%;
+	position:fixed;
+}
+#middle
+{
+	float: left;
+	width: 100%;
+	position: absolute;
+	top: 85px;
+	background: rgba(0, 0, 0, 0) url(../image/source.jpg) repeat 0px 0px;
+    background-size: auto;
+}
+#bottom
+{
+	float:left;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+}
+.container-fluid .row-fluid .span12 .well .icon-twitter-sign {
+margin: 0px;
+font-size: 34px;
+color: #ffffff;
+height: 34px;
+width: 38px;
+}
+.container-fluid .row-fluid .span12 .well .icon-facebook-sign {
+margin: 0px;
+font-size: 34px;
+color: #ffffff;
+height: 34px;
+width: 38px;
+}
+.container-fluid .row-fluid .span12 .well .icon-google-plus-sign {
+margin: 0px;
+font-size: 34px;
+color: #ffffff;
+height: 34px;
+width: 38px;
+}
+.logo
+{
+	width: 17%;
+text-align: center;
+float: left;
+padding-top: 20px;
+}
+.usercomment 
+{
+    background-color:#fff;
+}

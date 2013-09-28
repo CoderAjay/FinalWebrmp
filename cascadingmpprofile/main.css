@@ -1,0 +1,429 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 980px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .icon.icon-thumbs-up {
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 460px;
+   left: -96px;
+ }
+ .container-fluid {
+  background: rgba(0, 0, 0, 0) url(../image/source.jpg) repeat 0px 0px;
+   background-size: auto;
+ }
+ .container-fluid .row-fluid .span12 .well {
+   background: #1de2ff;
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 {
+   margin: 0px;
+   padding: 12px 19px 12px 19px;
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 .btn {
+   padding: 4px 14px 4px 14px;
+margin-top: 12px;
+}
+ 
+ .container-fluid .row-fluid .span12 .well.well-1 .btn.btn-1 {
+   margin: 12px;
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 .btn.myButton {
+   
+        -moz-box-shadow: 0px 8px 8px -6px #ccbeab;
+        -webkit-box-shadow: 0px 8px 8px -6px #ccbeab;
+        box-shadow: 0px 8px 8px -6px #ccbeab;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f7f4ef), color-stop(1, #d6cec3));
+        background:-moz-linear-gradient(top, #f7f4ef 5%, #d6cec3 100%);
+        background:-webkit-linear-gradient(top, #f7f4ef 5%, #d6cec3 100%);
+        background:-o-linear-gradient(top, #f7f4ef 5%, #d6cec3 100%);
+        background:-ms-linear-gradient(top, #f7f4ef 5%, #d6cec3 100%);
+        background:linear-gradient(to bottom, #f7f4ef 5%, #d6cec3 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f4ef', endColorstr='#d6cec3',GradientType=0);
+        
+        background-color:#f7f4ef;
+        
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        
+        border:1px solid #f5ebdc;
+        
+        display:inline-block;
+        color:#4a4641;
+        font-family:arial;
+        font-size:13px;
+        font-weight:bold;
+        padding:6px 12px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #e0dcd7;
+        
+    }
+    .myButton:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d6cec3), color-stop(1, #f7f4ef));
+        background:-moz-linear-gradient(top, #d6cec3 5%, #f7f4ef 100%);
+        background:-webkit-linear-gradient(top, #d6cec3 5%, #f7f4ef 100%);
+        background:-o-linear-gradient(top, #d6cec3 5%, #f7f4ef 100%);
+        background:-ms-linear-gradient(top, #d6cec3 5%, #f7f4ef 100%);
+        background:linear-gradient(to bottom, #d6cec3 5%, #f7f4ef 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6cec3', endColorstr='#f7f4ef',GradientType=0);
+        
+        background-color:#d6cec3;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 div .heading {
+   font-family:"brandon-grotesque";
+   font-weight: normal;
+   margin: 0px;
+   text-shadow: 0px 0px 22px rgba(37, 105, 134,0.34);
+ }
+ .container-fluid .row-fluid .span12 .well.well-1 div p {
+   margin: 0px;
+   padding: 0px 4px 0px 4px;
+   text-shadow: 0px 0px 9px rgba(75, 112, 202, 0.701961);
+ }
+ .container-fluid .row-fluid.row-fluid-1 {
+   padding: 10px 0px 10px 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 div.div-1 {
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 div.div-2 {
+   background: #fff;
+ }
+ .container-fluid .row-fluid-1 .span4 div.div-3 {
+   padding: 0px 0px 0px 0px;
+background-color: rgba(0, 0, 0, 0);
+
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 {
+   padding: 4px 10px 4px 10px;
+height:520px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .heading {
+   font-family:"brandon-grotesque";
+   font-weight: normal;
+   font-size: 22px;
+   text-shadow: 0px 0px 6px rgba(38, 83, 192, 0.701961);
+   margin: 0px;
+   padding: 24px 0px 24px 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span4 .well.div-1 {
+   padding: 32px 0px 32px 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 {
+   border: none;
+   padding: 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 div.div-5 {
+   padding: 2px 0px 2px 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 .div-5 .control-label {
+   margin: 0px;
+   padding: 4px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 div .row-fluid .span12 .control-label {
+   padding: 4px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 div .control-label.control-label-1 {
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .row-fluid-1 .span8 .well.div-1.div-2 div .control-label {
+   padding: 4px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div .control-label.control-label-2 {
+   margin: 0px;
+   padding: 10px;
+ }
+ .container-fluid .row-fluid-1 .span4 .div-3 .well.div-1.div-2.div-4 div.div-6 {
+   width: 100%;
+ }
+ .container-fluid .row-fluid-1 .span8 div.div-7 {
+  padding: 0px 0px 0px 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 {
+   padding: 0px;
+background: #fff;
+margin: 0px;
+
+
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div.div-8 {
+   padding: 12px 0px 12px 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 div .row-fluid .span6 .control-label {
+   font-size: 38px;
+   padding: 6px 0px 6px 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 div .row-fluid .span6 p {
+   font-family:"brandon-grotesque";
+   font-size: 23px;
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 div .row-fluid .span6 p.p-1 {
+   padding: 0px 3px 0px 3px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 .div-8 div .row-fluid .span6 p.p-2 {
+   padding: 0px 8px 0px 8px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid.row-fluid-2 {
+   padding: 20px 0px 20px 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid-2 .span10 .dom-pre {
+   font-family:"georgia";
+   border: none;
+   background: #dae6e8;
+   margin: 0px;
+   padding: 8px 0px 8px 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid-2 .span10 div {
+   padding: 6px 10px 6px 10px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid-2 .span10 div .icon.icon-thumbs-up {
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid-2 .span10 div .icon.icon-thumbs-down {
+   margin: 0px;
+ }
+ .container-fluid .row-fluid-1 .span8 .div-7 .well.well-2 div .row-fluid-2 .span10 div .icon.icon-comments {
+   margin: 0px;
+ }
+ .container-fluid div .row-fluid .span12 .well .icon.icon-twitter-sign {
+   font-size: 34px;
+   color: #ffffff;
+   height: 34px;
+   width: 38px;
+ }
+ .container-fluid div .row-fluid .span12 .well .icon.icon-facebook-sign {
+   font-size: 34px;
+   color: #ffffff;
+   height: 34px;
+   width: 38px;
+ }
+ .container-fluid div .row-fluid .span12 .well .icon.icon-google-plus-sign {
+   font-size: 34px;
+   color: #ffffff;
+   height: 34px;
+   width: 38px;
+ } 
+ 
+ /*changes 25th sep start*/
+.issue_cont
+{
+	height:528px;
+	overflow-y:scroll;
+}
+
+
+ /*changes 25th sep end*/
+
+
+	
+    .btn pull-right btn-2 {
+        
+        -moz-box-shadow: 0px 0px 26px 0px #ffb957;
+        -webkit-box-shadow: 0px 0px 26px 0px #ffb957;
+        box-shadow: 0px 0px 26px 0px #ffb957;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+        background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+        background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+        background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+        background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+        background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+        
+        background-color:#599bb3;
+        
+        -moz-border-radius:7px;
+        -webkit-border-radius:7px;
+        border-radius:7px;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:arial;
+        font-size:11px;
+        font-weight:bold;
+        padding:12px 32px;
+        text-decoration:none;
+        
+        text-shadow:0px 0px 0px #3d768a;
+        
+    }
+    .btn pull-right btn-2:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+        background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+        background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+        background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+        background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+        background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+        
+        background-color:#408c99;
+    }
+    .btn pull-right btn-2:active {
+        position:relative;
+        top:1px;
+    }
+
+
+.name1
+{
+	float:left;
+	width:29%;
+}
+.nameinput
+{
+	float:left;
+	width:64%;
+	padding:4px;
+}
+
+.mail1
+{
+	float:left;
+	
+}
+.mailinput
+{
+	float:left;
+	width:70%;
+	padding:10px;
+}
+.contact1
+{
+	float: left;
+}
+	.contactinput
+{
+	float:left;
+	width:70%;
+	padding:10px;
+}
+	.edu1
+{
+	float:left;
+	
+}
+.eduinput
+{
+	float:left;
+	width:64%;
+	padding:10px;
+}
+	.prof1
+{
+	float:left;
+	
+}
+.profinput
+{
+	float:left;
+	width:64%;
+	padding:10px;
+}
+	.peradd1
+{
+	float:left;
+	
+}
+.peraddinput
+{
+	float:left;
+	width:64%;
+	padding:10px;
+}
+	.preadd1
+{
+	float:left;
+	
+}
+.preaddinput
+{
+	float:left;
+	width:64%;
+	padding:10px;
+}
+.innermail
+{
+
+	float:left;
+	width:100%;
+	padding:px;
+}
+.innermail label
+{
+
+	float:left;
+	width:46%;
+}
+.innermail span
+{
+
+	float:left;
+	width:40%;
+	padding:11px;
+}
+#header
+{
+	float:left;
+	width:100%;
+	position:fixed;
+}
+#middle
+{
+	float: left;
+	width: 100%;
+	position: absolute;
+	top: 85px;
+	background: rgba(0, 0, 0, 0) url(../image/source.jpg) repeat 0px 0px;
+    background-size: auto;
+}
+#bottom
+{
+	float:left;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+}
+.container-fluid .row-fluid .span12 .well .icon-twitter-sign {
+margin: 0px;
+font-size: 34px;
+color: #ffffff;
+height: 34px;
+width: 38px;
+}
+.container-fluid .row-fluid .span12 .well .icon-facebook-sign {
+margin: 0px;
+font-size: 34px;
+color: #ffffff;
+height: 34px;
+width: 38px;
+}
+.container-fluid .row-fluid .span12 .well .icon-google-plus-sign {
+margin: 0px;
+font-size: 34px;
+color: #ffffff;
+height: 34px;
+width: 38px;
+}
